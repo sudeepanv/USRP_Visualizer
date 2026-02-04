@@ -1,0 +1,3 @@
+/home/sudeep/MINI/build/CMakeFiles/usrp_viz.dir
+/home/sudeep/MINI/build/CMakeFiles/edit_cache.dir
+/home/sudeep/MINI/build/CMakeFiles/rebuild_cache.dir

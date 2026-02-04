@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/usrp_viz.dir/main.cpp.o -o usrp_viz  /usr/lib/x86_64-linux-gnu/libuhd.so /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 
