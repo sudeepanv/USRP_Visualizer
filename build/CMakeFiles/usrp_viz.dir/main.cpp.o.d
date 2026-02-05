@@ -297,10 +297,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: /home/sudeep/MINI/main.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
@@ -324,6 +320,10 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: /home/sudeep/MINI/main.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStyleFactory \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstylefactory.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette \
@@ -395,8 +395,12 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: /home/sudeep/MINI/main.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRubberBand \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSimpleTextItem \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/uhd/usrp/multi_usrp.hpp /usr/include/uhd/config.hpp \
  /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \

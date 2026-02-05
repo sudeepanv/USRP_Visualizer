@@ -347,10 +347,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
@@ -374,6 +370,10 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStyleFactory \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstylefactory.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette \
@@ -446,8 +446,12 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRubberBand \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSimpleTextItem \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
   /usr/include/uhd/usrp/multi_usrp.hpp \
   /usr/include/uhd/config.hpp \
   /usr/include/boost/config.hpp \
@@ -2122,8 +2126,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/boost/container_hash/hash_fwd.hpp:
 
-/usr/include/boost/functional/hash.hpp:
-
 /usr/include/boost/io_fwd.hpp:
 
 /usr/include/boost/io/ios_state.hpp:
@@ -2588,6 +2590,12 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/boost/mpl/iter_fold.hpp:
 
+/usr/include/boost/mpl/distance.hpp:
+
+/usr/include/boost/mpl/aux_/size_impl.hpp:
+
+/usr/include/boost/mpl/size.hpp:
+
 /usr/include/boost/type_traits/is_floating_point.hpp:
 
 /usr/include/boost/mpl/vector/aux_/item.hpp:
@@ -2611,6 +2619,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/optional.hpp:
 
 /usr/include/boost/assert.hpp:
+
+/usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
@@ -2687,6 +2697,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bit:
 
 /usr/include/boost/mpl/vector/aux_/at.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent:
 
 /usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
 
@@ -2774,8 +2786,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchart.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h:
-
 /usr/include/boost/predef/architecture/z.h:
 
 /usr/include/c++/11/bits/invoke.h:
@@ -2850,11 +2860,9 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/boost/type_traits/add_pointer.hpp:
 
-/usr/include/c++/11/bits/string_view.tcc:
+/usr/include/boost/smart_ptr/scoped_array.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout:
-
-/usr/include/boost/lexical_cast/try_lexical_convert.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
 
 /usr/include/boost/date_time/gregorian/conversion.hpp:
 
@@ -2915,6 +2923,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/optional/detail/optional_reference_spec.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h:
 
 /usr/include/boost/predef/hardware/simd/arm.h:
 
@@ -3078,6 +3088,10 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
 
+/usr/include/boost/functional/hash.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRubberBand:
+
 /usr/include/boost/preprocessor/cat.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
@@ -3196,12 +3210,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/numeric:
 
-/usr/include/boost/type_traits/is_member_pointer.hpp:
-
-/usr/include/boost/type_traits/is_complex.hpp:
-
-/usr/include/boost/type_traits/has_right_shift.hpp:
-
 /usr/include/boost/type_traits/is_void.hpp:
 
 /usr/include/boost/array.hpp:
@@ -3245,10 +3253,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/bind/mem_fn_template.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/boost/mpl/find_if.hpp:
 
@@ -3344,17 +3348,9 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/vector.tcc:
 
-/usr/include/boost/type_traits/is_enum.hpp:
-
-/usr/include/boost/type_traits/detail/config.hpp:
-
 /usr/include/boost/format/internals_fwd.hpp:
 
 /usr/include/boost/concept/assert.hpp:
-
-/usr/include/boost/predef/hardware/simd/x86.h:
-
-/usr/include/boost/type_traits/is_pointer.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -3369,6 +3365,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/config/auto_link.hpp:
 
 /usr/include/boost/iterator/iterator_concepts.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicswidget.h:
 
@@ -3431,8 +3429,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/mpl/equal_to.hpp:
 
 /usr/include/boost/move/make_unique.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout:
 
 /usr/include/boost/mpl/aux_/O1_size_impl.hpp:
 
@@ -3576,15 +3572,15 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/boost/range/size.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
+
+/usr/include/boost/config.hpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h:
 
 /usr/include/c++/11/cerrno:
 
 /usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
-
-/usr/include/boost/config.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -3647,6 +3643,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
 
 /usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
 
@@ -3754,8 +3752,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/postypes.h:
 
-/usr/include/boost/mpl/aux_/size_impl.hpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
 
 /usr/include/c++/11/bits/locale_conv.h:
@@ -3833,6 +3829,10 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/uhd/types/stream_cmd.hpp:
 
@@ -3948,6 +3948,12 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSimpleTextItem:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
@@ -3959,10 +3965,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/ext/concurrence.h:
 
 /usr/include/boost/mpl/list/aux_/item.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h:
 
@@ -4017,14 +4019,6 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/predef/architecture/arm.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/boost/smart_ptr/scoped_array.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/time.h:
 
@@ -4090,6 +4084,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
 /usr/include/boost/type_traits/remove_volatile.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
@@ -4127,6 +4123,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/mpl/list/aux_/iterator.hpp:
 
 /usr/include/c++/11/ios:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:
 
 /usr/include/c++/11/utility:
 
@@ -4175,6 +4173,20 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/multi_index/detail/index_node_base.hpp:
 
 /usr/include/c++/11/bits/stl_list.h:
+
+/usr/include/boost/type_traits/detail/config.hpp:
+
+/usr/include/boost/type_traits/is_enum.hpp:
+
+/usr/include/boost/predef/hardware/simd/x86.h:
+
+/usr/include/boost/type_traits/is_pointer.hpp:
+
+/usr/include/boost/type_traits/is_member_pointer.hpp:
+
+/usr/include/boost/type_traits/is_complex.hpp:
+
+/usr/include/boost/type_traits/has_right_shift.hpp:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
@@ -4918,6 +4930,8 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/boost/lexical_cast/bad_lexical_cast.hpp:
 
+/usr/include/boost/lexical_cast/try_lexical_convert.hpp:
+
 /usr/include/boost/numeric/conversion/cast.hpp:
 
 /usr/include/boost/mpl/aux_/config/pp_counter.hpp:
@@ -5239,7 +5253,3 @@ CMakeFiles/usrp_viz.dir/main.cpp.o: ../main.cpp \
 /usr/include/boost/mpl/advance.hpp:
 
 /usr/include/boost/mpl/aux_/advance_forward.hpp:
-
-/usr/include/boost/mpl/size.hpp:
-
-/usr/include/boost/mpl/distance.hpp:
